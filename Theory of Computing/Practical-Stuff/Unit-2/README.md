@@ -8,11 +8,11 @@
 
 Give the DFA for the language of string over {0,1} in which each string ends with $11$.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram:
 
-![image-20230206191202883](/home/tyzrex/.config/Typora/typora-user-images/image-20230206191202883.png)
+![1675852120507](image/README/1675852120507.png)
 
 ###### State Table:
 
@@ -84,11 +84,11 @@ int main() {
 
 Give the DFA accepting the string over {a,b} such that each string does not end with ab.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram:
 
-![image-20230206191248672](/home/tyzrex/.config/Typora/typora-user-images/image-20230206191248672.png)
+![1675852138084](image/README/1675852138084.png)
 
 ###### State Table:
 
@@ -173,11 +173,11 @@ int main()
 
 Give the DFA for the language of string over {a,b} such that each string contains aba as substring.
 
-###### <u>Solution</u>
+###### `<u>`Solution`</u>`
 
 ###### State Diagram:
 
-![image-20230207143555172](/home/tyzrex/.config/Typora/typora-user-images/image-20230207143555172.png)
+![1675852152825](image/README/1675852152825.png)
 
 ###### State Table
 
@@ -191,7 +191,6 @@ Give the DFA for the language of string over {a,b} such that each string contain
 ###### State Function
 
 $\displaylines{\delta(A,a) \rightarrow B \\\ \delta(A,b) \rightarrow A \\\ \delta(B,a) \rightarrow B \\\ \delta(B,b) \rightarrow C\\\ \delta(C,a) \rightarrow D \\\ \delta(C,b) \rightarrow A\\\ \delta(D,a) \rightarrow D \\\ \delta(D,b) \rightarrow D}$
-
 
 ###### Code
 
@@ -254,7 +253,7 @@ int main(){
 
 Give the DFA for the language of string over {0,1} such that each string start with 01.
 
-###### <u>Solution</u>
+###### `<u>`Solution`</u>`
 
 ###### State Figure
 
@@ -330,11 +329,11 @@ int main(){
 
 Give the DFA for the language of string over {0,1} such that the set of all string ending in 00.
 
-###### <u>Solution</u>
+###### `<u>`Solution`</u>`
 
 ###### State Diagram
 
-![image-20230207134023964](/home/tyzrex/.config/Typora/typora-user-images/image-20230207134023964.png)
+![1675852193711](image/README/1675852193711.png)
 
 ###### State Table
 
@@ -406,11 +405,11 @@ int main() {
 
 Give the DFA for the language of string over {0,1} such that set of strings with 011 as a substring.
 
-###### <u>Solution</u>
+###### `<u>`Solution`</u>`
 
 ###### State Diagram
 
-![image-20230207143924323](/home/tyzrex/.config/Typora/typora-user-images/image-20230207143924323.png)
+![1675852208280](image/README/1675852208280.png)
 
 ###### State Table
 
