@@ -24,7 +24,7 @@ Give the DFA for the language of string over {0,1} in which each string ends wit
 
 ###### State Function:
 
-$\displaylines{\delta(A,0) \rightarrow A\\ \delta(A,1) \rightarrow B\\ \delta(B,0) \rightarrow A\\ \delta(B,1) \rightarrow C\\ \delta(C,0) \rightarrow A\\ \delta(C,1) \rightarrow C\\ }$
+$\displaylines{\delta(A,0) \rightarrow A \\ \delta(A,1) \rightarrow B \\ \delta(B,0) \rightarrow A \\ \delta(B,1) \rightarrow C \\ \delta(C,0) \rightarrow A \\ \delta(C,1) \rightarrow C \\ }$
 
 ###### Code:
 
