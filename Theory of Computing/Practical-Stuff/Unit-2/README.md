@@ -56,7 +56,7 @@ $\displaylines{ \delta(A,0)\rightarrow B \\\ \delta(A,1)\rightarrow A \\\ \delta
 
 Give the DFA for the language of string over {a,b} such that each string contains aba as substring.
 
-###### `<u>`Solution`</u>`
+###### `<u>`Solution `</u>`
 
 ###### State Diagram:
 
@@ -81,13 +81,13 @@ $\displaylines{\delta(A,a) \rightarrow B \\\ \delta(A,b) \rightarrow A \\\ \delt
 
 Give the DFA for the language of string over {0,1} such that each string start with 01.
 
-###### `<u>`Solution`</u>`
+###### `<u>`Solution `</u>`
 
 ###### State Figure
 
-![image-20230208144641013](/home/tyzrex/.config/Typora/typora-user-images/image-20230208144641013.png)
+![1675852679343](image/README/1675852679343.png)
 
-###### State Table
+State Table
 
 | State/Input | 0      | 1      |
 | ----------- | ------ | ------ |
@@ -105,7 +105,7 @@ $\displaylines{\delta(A,0) \rightarrow B \\\ \delta(A,1) \rightarrow Reject \\\ 
 
 Give the DFA for the language of string over {0,1} such that the set of all string ending in 00.
 
-###### `<u>`Solution`</u>`
+###### `<u>`Solution `</u>`
 
 ###### State Diagram
 
@@ -129,7 +129,7 @@ $\displaylines{\delta(A,0) \rightarrow B \\\ \delta(A,1) \rightarrow A \\\ \delt
 
 Give the DFA for the language of string over {0,1} such that set of strings with 011 as a substring.
 
-###### `<u>`Solution`</u>`
+###### `<u>`Solution `</u>`
 
 ###### State Diagram
 
@@ -146,6 +146,6 @@ Give the DFA for the language of string over {0,1} such that set of strings with
 
 ###### State Function
 
-$\displaylines{$\delta(A,0) \rightarrow B \\\ \delta(A,1) \rightarrow A \\\ \delta(B,0) \rightarrow B \\\ \delta(B,1) \rightarrow C \\\ \delta(C,0) \rightarrow B \\\ \delta(C,1) \rightarrow D \\\ \delta(D,0) \rightarrow D \\\ \delta(D,1) \rightarrow D \\\ }$
+$ \displaylines{\delta(A,0) \rightarrow B \\\ \delta(A,1) \rightarrow A \\\ \delta(B,0) \rightarrow B \\\ \delta(B,1) \rightarrow C \\\ \delta(C,0) \rightarrow B \\\ \delta(C,1) \rightarrow D \\\ \delta(D,0) \rightarrow D \\\ \delta(D,1) \rightarrow D \\\ }$
 
 ---
