@@ -8,7 +8,7 @@
 
 Give the DFA for the language of string over {0,1} in which each string ends with $11$.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram:
 
@@ -24,16 +24,7 @@ Give the DFA for the language of string over {0,1} in which each string ends wit
 
 ###### State Function:
 
-$$\delta(A,0) \rarr A\\
-\delta(A,1) \rarr B\\
-
-\delta(B,0) \rarr A\\
-\delta(B,1) \rarr C\\
-
-\delta(C,0) \rarr A\\
-\delta(C,1) \rarr C\\
-$$
-
+$ \delta(A,0) \rightarrow A\\ \delta(A,1) \rightarrow B\\ \delta(B,0) \rightarrow A\\ \delta(B,1) \rightarrow C\\ \delta(C,0) \rightarrow A\\ \delta(C,1) \rightarrow C\\ $
 
 ###### Code:
 
@@ -93,7 +84,7 @@ int main() {
 
 Give the DFA accepting the string over {a,b} such that each string does not end with ab.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram:
 
@@ -109,16 +100,7 @@ Give the DFA accepting the string over {a,b} such that each string does not end 
 
 ###### State Function:
 
-$$
-\delta(A,0)\rarr B\\
-\delta(A,1)\rarr A\\
-
-\delta(B,0)\rarr B\\
-\delta(B,1)\rarr C\\
-
-\delta(C,0)\rarr B\\
-\delta(C,1)\rarr A\\
-$$
+$ \delta(A,0)\rightarrow B\\ \delta(A,1)\rightarrow A\\ \delta(B,0)\rightarrow B\\ \delta(B,1)\rightarrow C\\ \delta(C,0)\rightarrow B\\ \delta(C,1)\rightarrow A\\ $
 
 ###### Code:
 
@@ -191,7 +173,7 @@ int main()
 
 Give the DFA for the language of string over {a,b} such that each string contains aba as substring.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram:
 
@@ -209,17 +191,17 @@ Give the DFA for the language of string over {a,b} such that each string contain
 ###### State Function
 
 $$
-\delta(A,a)\rarr B\\
-\delta(A,b)\rarr A\\
+\delta(A,a)\rightarrow B\\
+\delta(A,b)\rightarrow A\\
 
-\delta(B,a)\rarr B\\
-\delta(B,b)\rarr C\\
+\delta(B,a)\rightarrow B\\
+\delta(B,b)\rightarrow C\\
 
-\delta(C,a)\rarr D\\
-\delta(C,b)\rarr A\\
+\delta(C,a)\rightarrow D\\
+\delta(C,b)\rightarrow A\\
 
-\delta(D,a)\rarr D\\
-\delta(D,b)\rarr D
+\delta(D,a)\rightarrow D\\
+\delta(D,b)\rightarrow D
 $$
 
 ###### Code
@@ -283,7 +265,7 @@ int main(){
 
 Give the DFA for the language of string over {0,1} such that each string start with 01.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Figure
 
@@ -300,14 +282,14 @@ Give the DFA for the language of string over {0,1} such that each string start w
 ###### State Function
 
 $$
-\delta(A,0)\rarr B\\
-\delta(A,1)\rarr Reject\\
+\delta(A,0)\rightarrow B\\
+\delta(A,1)\rightarrow Reject\\
 
-\delta(B,0)\rarr C\\
-\delta(B,1)\rarr Reject\\
+\delta(B,0)\rightarrow C\\
+\delta(B,1)\rightarrow Reject\\
 
-\delta(C,0)\rarr C\\
-\delta(C,1)\rarr C\\
+\delta(C,0)\rightarrow C\\
+\delta(C,1)\rightarrow C\\
 $$
 
 ###### Code:
@@ -368,7 +350,7 @@ int main(){
 
 Give the DFA for the language of string over {0,1} such that the set of all string ending in 00.
 
-###### <u>Solution</u>
+###### `<u>`Solution`</u>`
 
 ###### State Diagram
 
@@ -385,13 +367,13 @@ Give the DFA for the language of string over {0,1} such that the set of all stri
 ###### State Function
 
 $$
-\delta(A,0)\rarr B\\
-\delta(A,1)\rarr A\\
+\delta(A,0)\rightarrow B\\
+\delta(A,1)\rightarrow A\\
 
-\delta(B,0)\rarr C\\
-\delta(B,1)\rarr A\\
-\delta(C,0)\rarr C\\
-\delta(C,1)\rarr A\\
+\delta(B,0)\rightarrow C\\
+\delta(B,1)\rightarrow A\\
+\delta(C,0)\rightarrow C\\
+\delta(C,1)\rightarrow A\\
 $$
 
 ###### Code:
@@ -452,7 +434,7 @@ int main() {
 
 Give the DFA for the language of string over {0,1} such that set of strings with 011 as a substring.
 
-###### <u>Solution:</u>
+###### `<u>`Solution:`</u>`
 
 ###### State Diagram
 
@@ -470,17 +452,17 @@ Give the DFA for the language of string over {0,1} such that set of strings with
 ###### State Function
 
 $$
-\delta(A,0)\rarr B\\
-\delta(A,1)\rarr A\\
+\delta(A,0) \rightarrow B\\
+\delta(A,1)\rightarrow A\\
 
-\delta(B,0)\rarr B\\
-\delta(B,1)\rarr C\\
+\delta(B,0)\rightarrow B\\
+\delta(B,1)\rightarrow C\\
 
-\delta(C,0)\rarr B\\
-\delta(C,1)\rarr D\\
+\delta(C,0)\rightarrow B\\
+\delta(C,1)\rightarrow D\\
 
-\delta(D,0)\rarr D\\
-\delta(D,1)\rarr D
+\delta(D,0)\rightarrow D\\
+\delta(D,1)\rightarrow D
 $$
 
 ###### Code:
