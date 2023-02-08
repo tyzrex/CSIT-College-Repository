@@ -24,7 +24,7 @@ Give the DFA for the language of string over {0,1} in which each string ends wit
 
 ###### State Function:
 
-$ \delta(A,0) \rightarrow A\\ \delta(A,1) \rightarrow B\\ \delta(B,0) \rightarrow A\\ \delta(B,1) \rightarrow C\\ \delta(C,0) \rightarrow A\\ \delta(C,1) \rightarrow C\\ $
+$\delta(A,0) \rightarrow A\\ \delta(A,1) \rightarrow B\\ \delta(B,0) \rightarrow A\\ \delta(B,1) \rightarrow C\\ \delta(C,0) \rightarrow A\\ \delta(C,1) \rightarrow C\\ $
 
 ###### Code:
 
@@ -190,6 +190,7 @@ Give the DFA for the language of string over {a,b} such that each string contain
 
 ###### State Function
 
+$\delta(A,a) \rightarrow B$
 $$
 \delta(A,a)\rightarrow B\\
 \delta(A,b)\rightarrow A\\
