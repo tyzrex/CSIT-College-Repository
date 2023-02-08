@@ -23,14 +23,14 @@ Give the DFA for the language of string over {0,1} in which each string ends wit
 3. ###### State Function:
 
    ```math
-   \delta(A,0)\rarr A\\
-   \delta(A,1)\rarr B\\
+   \delta(A,0) \rarr A\\
+   \delta(A,1) \rarr B\\
 
-   \delta(B,0)\rarr A\\
-   \delta(B,1)\rarr C\\
+   \delta(B,0) \rarr A\\
+   \delta(B,1) \rarr C\\
 
-   \delta(C,0)\rarr A\\
-   \delta(C,1)\rarr C\\
+   \delta(C,0) \rarr A\\
+   \delta(C,1) \rarr C\\
    ```
 4. ###### Code:
 
@@ -104,16 +104,16 @@ Give the DFA accepting the string over {a,b} such that each string does not end 
    | C           | B | A |
 3. ###### State Function:
 
-   $$
-   \delta(A,0)\rarr B\\
-   \delta(A,1)\rarr A\\
+   ```math
+   \delta(A,0) \rarr B\\
+   \delta(A,1) \rarr A\\
 
-   \delta(B,0)\rarr B\\
-   \delta(B,1)\rarr C\\
+   \delta(B,0) \rarr B\\
+   \delta(B,1) \rarr C\\
 
-   \delta(C,0)\rarr B\\
-   \delta(C,1)\rarr A\\
-   $$
+   \delta(C,0) \rarr B\\
+   \delta(C,1) \rarr A\\
+   ```
 4. ###### Code:
 
    ```cpp
@@ -200,19 +200,19 @@ Give the DFA for the language of string over {a,b} such that each string contain
    | D           | D | D |
 3. ###### State Function
 
-   $$
-   \delta(A,a)\rarr B\\
-   \delta(A,b)\rarr A\\
+   ```math
+   \delta(A,a) \rarr B\\
+   \delta(A,b) \rarr A\\
 
-   \delta(B,a)\rarr B\\
-   \delta(B,b)\rarr C\\
+   \delta(B,a) \rarr B\\
+   \delta(B,b) \rarr C\\
 
-   \delta(C,a)\rarr D\\
-   \delta(C,b)\rarr A\\
+   \delta(C,a) \rarr D\\
+   \delta(C,b) \rarr A\\
 
-   \delta(D,a)\rarr D\\
-   \delta(D,b)\rarr D
-   $$
+   \delta(D,a) \rarr D\\
+   \delta(D,b) \rarr D
+   ```
 4. ###### Code
 
    ```cpp
@@ -288,16 +288,16 @@ Give the DFA for the language of string over {0,1} such that each string start w
    | C           | C      | C      |
 3. ###### State Function
 
-   $$
-   \delta(A,0)\rarr B\\
+   ```math
+   \delta(A,0) \rarr B\\
    \delta(A,1)\rarr Reject\\
 
-   \delta(B,0)\rarr C\\
-   \delta(B,1)\rarr Reject\\
+   \delta(B,0) \rarr C\\
+   \delta(B,1) \rarr Reject\\
 
-   \delta(C,0)\rarr C\\
-   \delta(C,1)\rarr C\\
-   $$
+   \delta(C,0) \rarr C\\
+   \delta(C,1) \rarr C\\
+   ```
 4. ###### Code:
 
    ```cpp
@@ -370,16 +370,16 @@ Give the DFA for the language of string over {0,1} such that the set of all stri
    | C           | C | A |
 3. ###### State Function
 
-   $$
-   \delta(A,0)\rarr B\\
-   \delta(A,1)\rarr A\\
+   ```math
+   \delta(A,0) \rarr B\\
+   \delta(A,1) \rarr A\\
 
-   \delta(B,0)\rarr C\\
-   \delta(B,1)\rarr A\\
+   \delta(B,0) \rarr C\\
+   \delta(B,1) \rarr A\\
 
-   \delta(C,0)\rarr C\\
-   \delta(C,1)\rarr A\\
-   $$
+   \delta(C,0) \rarr C\\
+   \delta(C,1) \rarr A\\
+   ```
 4. ###### Code:
 
    ```cpp
