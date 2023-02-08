@@ -31,7 +31,6 @@ bool is_accepted(string str)
       break;
     case 'C':
       state = (c == 'a') ? 'B' : 'A';
-      break;
     }
   }
   return state != 'C';
