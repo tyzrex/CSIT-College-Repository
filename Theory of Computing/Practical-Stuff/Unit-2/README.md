@@ -132,8 +132,6 @@ Give the DFA for the language of string over {0,1} such that each string start w
 
 ###### State Figure
 
-![1676166280170](image/README/1676166280170.png)
-
 ![1676166201827](image/README/1676166201827.png)
 
 State Table
