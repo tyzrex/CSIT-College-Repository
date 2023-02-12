@@ -37,11 +37,11 @@ Transition Table:
 
 It is the representation of transition function $\sum$ in a table or a matrix. Start State is represented by $\rightarrow$ and end state is denoted by $*$. For eg: if a DFA has state $\{q_0,q_1,q_2\}$ and inputs $\{0,1\}$ then the table to accept 01 substring can be:
 
-|               |       | 0     | 1     |
-| ------------- | ----- | ----- | ----- |
+|                 |         | 0       | 1       |
+| --------------- | ------- | ------- | ------- |
 | $\rightarrow$ | $q_0$ | $q_2$ | $q_0$ |
 | $*$           | $q_1$ | $q_1$ | $q_1$ |
-|               | $q_2$ | $q_2$ | $q_1$ |
+|                 | $q_2$ | $q_2$ | $q_1$ |
 
 Transition Diagram:
 
@@ -132,7 +132,7 @@ Give the DFA for the language of string over {0,1} such that each string start w
 
 ###### State Figure
 
-![1675852679343](image/README/1675852679343.png)
+![1676166201827](image/README/1676166201827.png)
 
 State Table
 
