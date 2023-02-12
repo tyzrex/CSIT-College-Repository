@@ -4,6 +4,53 @@
 
 ---
 
+### Theory:
+
+###### Finite Automata:
+
+A finite automaton is a mathematical model that is an abstract machine that has a set of "states" and its
+"control" moves from state to state in response to the "external inputs".The control maybe either "deterministic" meaning that automaton can be in one state at a time or "non deterministic", meaning that it maybe in several states at a time.
+
+Finite automata is a fundamental concept in the theory of computing and is widely used in applications such as lexical analysis, parsing and pattern matching.
+
+---
+
+###### Deterministic Finite Automata(DFA):
+
+Deterministic Finite Automata(DFA) is a type of finite automaton that has the property of determinism meaning that for each state and each possible symbol there is exactly one transition to a new state.
+
+The 5-tuple representation of a Deterministic Finite Automaton (DFA) is a standard way to specify the structure and behavior of a DFA. The 5-tuple consists of the following components:
+
+1. A finite set of states, denoted as Q.
+2. An alphabet of input symbols, denoted as Σ.
+3. A transition function, denoted as δ, which maps a state and an input symbol to a new state. The transition function is usually represented as a table or a matrix.
+4. An initial state, denoted as q0, which is the starting state of the DFA.
+5. A set of final states, denoted as F, which are the states in which the DFA will halt and accept the input string.
+
+The 5-tuple representation provides a complete and concise specification of the behavior of a DFA, and can be used to simulate the operation of the DFA on a given input string.
+
+---
+
+###### Notations for DFA:
+
+Transition Table:
+
+It is the representation of transition function $\sum$ in a table or a matrix. Start State is represented by $\rightarrow$ and end state is denoted by $*$. For eg: if a DFA has state $\{q_0,q_1,q_2\}$ and inputs $\{0,1\}$ then the table to accept 01 substring can be:
+
+|               |       | 0     | 1     |
+| ------------- | ----- | ----- | ----- |
+| $\rightarrow$ | $q_0$ | $q_2$ | $q_0$ |
+| $*$           | $q_1$ | $q_1$ | $q_1$ |
+|               | $q_2$ | $q_2$ | $q_1$ |
+
+Transition Diagram:
+
+A transition function can also be represented graphically as a state transition diagram. Each state is represented as a node and transitions are represented as arrows. Start is denoted by arrow written with start and final or accept state is denoted by double circle. eg:
+
+![1675852120507](image/README/1675852120507.png)
+
+---
+
 ###### Question 1
 
 Give the DFA for the language of string over {0,1} in which each string ends with $11$.
